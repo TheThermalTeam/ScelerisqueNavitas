@@ -1,7 +1,7 @@
-package io.github.TheThermalTeam.ScelerisqueNavitas;
+package io.github.TheThermalTeam.scelerisque_navitas;
 
-import io.github.TheThermalTeam.ScelerisqueNavitas.common.block.ModBlocks;
-import io.github.TheThermalTeam.ScelerisqueNavitas.common.item.ModItems;
+import io.github.TheThermalTeam.scelerisque_navitas.common.block.ModBlocks;
+import io.github.TheThermalTeam.scelerisque_navitas.common.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
