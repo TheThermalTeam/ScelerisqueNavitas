@@ -8,7 +8,10 @@ public class heat {
     //If the blocks input heat unit is lower than possible output heat unit then remove the block from the container
 
     //Input heat unit/tick is determined as follows:
-    double Teq=0;
-    double Tstart=0;
-    int timeRequired = (block_capacity/(Math.sqrt(block_tranferCoef*neighbour_transferCoef)))*Math.log((Teq-Tstart)/(0.01*Teq))/Math.log(Math.exp(1));
+    public static double blocksHeatEmission() {
+        for (int i = 0; ) {
+            double Teq = 0;
+        double Tcurr = 0;
+        double heatPerTick = (Math.sqrt(block.coef * neighbour.coef) / block.capacity) * (Teq - Tcurr);
+    }
 }
