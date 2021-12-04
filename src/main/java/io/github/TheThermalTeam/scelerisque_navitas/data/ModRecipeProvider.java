@@ -17,7 +17,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> finished) {
-        //ShapedRecipeBuilder.shaped(ModItems.AMETHYST_COIN.get()).define('T',ModItems.AMETHYST.get()).
+        ShapedRecipeBuilder.shaped(ModItems.AMETHYST_COIN.get()).define('T',ModItems.AMETHYST.get()).pattern("").pattern("T").pattern("").
 
     }
 }
