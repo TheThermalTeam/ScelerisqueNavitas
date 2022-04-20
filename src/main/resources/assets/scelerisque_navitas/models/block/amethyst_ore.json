@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "scelerisque_navitas:block/amethyst_ore"
-  }
-}
